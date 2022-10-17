@@ -824,23 +824,11 @@ h1 {
   .big{
     width: 100%;
     height: auto;
-   
+   display: flex;
+   align-items: center;
 
   }
-  .box61 {
 
-    width: 320px;
-    height: 320px;
-    opacity: 1;
-    /* border: 1px solid #00A5EC; */
-    
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: inset 5px 5px 10px #fff;
-    margin: 30px 0px;
-    box-shadow: inset -10px -10px #fff;
-  
-  }
   
   .font31 {
     margin-left: -20px;
@@ -896,7 +884,18 @@ h1 {
     color:#f7f7f7;
   }
   
+  .box61 {
+
+    width: 350px;
+    height: 320px;
+    opacity: 1;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: inset 5px 5px 10px #fff;
+    margin: 30px 60px;
+    box-shadow: inset -10px -10px #fff;
   
+  }
   
   .box61 p {
     font-size: 25px;
